@@ -16,7 +16,7 @@ const CountdownTimer = () => {
       intervalId = setInterval(() => {
         setCountdown(prevCountdown => {
           if (prevCountdown === 1) {
-            setTimerActive(false); // Stop the timer when countdown reaches 1
+            setTimerActive(false); 
           }
           return prevCountdown - 1;
         });
@@ -40,7 +40,7 @@ const CountdownTimer = () => {
     const totalSeconds =
       seconds + minutes * 60 + hours * 3600 + days * 86400;
     setCountdown(totalSeconds);
-    setInitialCountdown(totalSeconds); // Store the initial countdown value
+    setInitialCountdown(totalSeconds); 
   };
 
   const startTimer = () => {
