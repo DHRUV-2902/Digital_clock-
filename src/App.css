@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: black;
+  text-align: center;
+  background-image: url(dig.png);
+  margin:25px;
+}
+#tag{
+  font-family: cursive;
+}
+
+#cur{
+  font-family: cursive;
+}
