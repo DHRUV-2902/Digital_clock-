@@ -70,7 +70,7 @@ const Alarm = () => {
     if (alarmTriggered) {
       const resetAlarm = setTimeout(() => {
         cancelAlarm();
-      }, 5000); // Reset after 5 seconds (adjust as needed)
+      }, 5000); 
 
       return () => {
         clearTimeout(resetAlarm);
